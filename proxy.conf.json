@@ -1,0 +1,10 @@
+{
+  "/photos": {
+    "target": "https://localhost:3000/photos",
+    "secure": false,
+    "pathRewrite": {
+      "^/photos": ""
+    },
+    "logLevel": "debug"
+  }
+}
