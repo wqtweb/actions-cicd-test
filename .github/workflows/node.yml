@@ -26,9 +26,9 @@ jobs:
         path: node_modules
         key: ${}-node-${{ hashFiles('package-lock.json') }}
 
-       - name: Install dependencies
-       if: steps.cache-primes.outputs.cache-hit != 'true'
-       run: npm ci
+      - name: Install dependencies
+        if: steps.cache-primes.outputs.cache-hit != 'true'
+        run: npm ci
 
       - name: Build
         run: npm run build --if-present
