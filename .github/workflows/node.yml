@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [ "feature/irita" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "feature/irita" ]
+    branches: [ "main" ]
 
 jobs:
   build:
