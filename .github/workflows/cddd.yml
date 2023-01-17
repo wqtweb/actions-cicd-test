@@ -1,4 +1,4 @@
-name: CICD-prod
+name: CICD-ddd
 
 on: [workflow_dispatch]
 
